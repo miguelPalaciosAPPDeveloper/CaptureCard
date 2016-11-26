@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewMain: UIViewController,UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UISearchResultsUpdating, UIAlertViewDelegate {
+    //Modificacion de prueba
     @IBOutlet weak var mSearchBar: UISearchBar!
     
     @IBOutlet var TableViewTarjetas: UITableView!
