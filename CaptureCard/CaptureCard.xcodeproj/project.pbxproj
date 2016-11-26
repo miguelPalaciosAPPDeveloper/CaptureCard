@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490B6A141C9A10350052DA78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6A131C9A10350052DA78 /* AppDelegate.swift */; };
+		490B6A161C9A10350052DA78 /* ViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6A151C9A10350052DA78 /* ViewMain.swift */; };
+		490B6A191C9A10350052DA78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490B6A171C9A10350052DA78 /* Main.storyboard */; };
+		490B6A1C1C9A10350052DA78 /* CaptureCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 490B6A1A1C9A10350052DA78 /* CaptureCard.xcdatamodeld */; };
+		490B6A1E1C9A10350052DA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490B6A1D1C9A10350052DA78 /* Assets.xcassets */; };
+		490B6A211C9A10350052DA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490B6A1F1C9A10350052DA78 /* LaunchScreen.storyboard */; };
+		490B6A291C9B2BDD0052DA78 /* ViewVistaPrevia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B6A281C9B2BDD0052DA78 /* ViewVistaPrevia.swift */; };
+		492F166E1CA9EF9800778FDE /* AdminCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F166D1CA9EF9800778FDE /* AdminCoreData.swift */; };
+		492F16701CA9FD0F00778FDE /* AdminTarjetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F166F1CA9FD0F00778FDE /* AdminTarjetas.swift */; };
+		492F16761CAA2E5E00778FDE /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F16751CAA2E5E00778FDE /* Toast.swift */; };
+		492F16801CAAE79600778FDE /* AdminCapturas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F167F1CAAE79600778FDE /* AdminCapturas.swift */; };
+		492F16841CAB2FF700778FDE /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F16831CAB2FF700778FDE /* TesseractOCR.framework */; };
+		492F16861CAB306B00778FDE /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F16851CAB306B00778FDE /* libstdc++.6.0.9.tbd */; };
+		492F16881CAB307800778FDE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F16871CAB307800778FDE /* CoreImage.framework */; };
+		492F168F1CAC44CB00778FDE /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 492F168E1CAC44CB00778FDE /* libstdc++.tbd */; };
+		492F16911CAC475C00778FDE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 492F16901CAC475C00778FDE /* tessdata */; };
+		492F16961CAC518F00778FDE /* AdminTexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F16951CAC518F00778FDE /* AdminTexto.swift */; };
+		492F16981CAC941900778FDE /* DialogCargandoDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F16971CAC941900778FDE /* DialogCargandoDatos.swift */; };
+		4930B53E1CADDE86001AA217 /* DialogBorrarTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930B53D1CADDE86001AA217 /* DialogBorrarTarjeta.swift */; };
+		4930B5411CADF86B001AA217 /* DialogListaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930B5401CADF86B001AA217 /* DialogListaDatos.swift */; };
+		4935EC3A1CBB2D3B006B4E44 /* Tarjeta+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935EC381CBB2D3B006B4E44 /* Tarjeta+CoreDataProperties.swift */; };
+		4935EC3B1CBB2D3B006B4E44 /* Tarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935EC391CBB2D3B006B4E44 /* Tarjeta.swift */; };
+		4935EC3D1CBC07DC006B4E44 /* ViewDatosTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4935EC3C1CBC07DC006B4E44 /* ViewDatosTarjeta.swift */; };
+		493612B21C9B75A600E530BF /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493612B11C9B75A600E530BF /* CustomCellTableViewCell.swift */; };
+		494F9A8E1CADD2B100567094 /* DialogOpcionesTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F9A8D1CADD2B100567094 /* DialogOpcionesTarjeta.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490B6A101C9A10350052DA78 /* CaptureCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490B6A131C9A10350052DA78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		490B6A151C9A10350052DA78 /* ViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMain.swift; sourceTree = "<group>"; };
+		490B6A181C9A10350052DA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		490B6A1B1C9A10350052DA78 /* CaptureCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptureCard.xcdatamodel; sourceTree = "<group>"; };
+		490B6A1D1C9A10350052DA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		490B6A201C9A10350052DA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		490B6A221C9A10350052DA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490B6A281C9B2BDD0052DA78 /* ViewVistaPrevia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewVistaPrevia.swift; sourceTree = "<group>"; };
+		492F166D1CA9EF9800778FDE /* AdminCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminCoreData.swift; sourceTree = "<group>"; };
+		492F166F1CA9FD0F00778FDE /* AdminTarjetas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminTarjetas.swift; sourceTree = "<group>"; };
+		492F16751CAA2E5E00778FDE /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		492F167F1CAAE79600778FDE /* AdminCapturas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminCapturas.swift; sourceTree = "<group>"; };
+		492F16831CAB2FF700778FDE /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		492F16851CAB306B00778FDE /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		492F16871CAB307800778FDE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		492F16891CAB447D00778FDE /* CaptureCard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaptureCard-Bridging-Header.h"; sourceTree = "<group>"; };
+		492F168E1CAC44CB00778FDE /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		492F16901CAC475C00778FDE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		492F16951CAC518F00778FDE /* AdminTexto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminTexto.swift; sourceTree = "<group>"; };
+		492F16971CAC941900778FDE /* DialogCargandoDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogCargandoDatos.swift; sourceTree = "<group>"; };
+		4930B53D1CADDE86001AA217 /* DialogBorrarTarjeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DialogBorrarTarjeta.swift; path = ../DialogBorrarTarjeta.swift; sourceTree = "<group>"; };
+		4930B5401CADF86B001AA217 /* DialogListaDatos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogListaDatos.swift; sourceTree = "<group>"; };
+		4935EC381CBB2D3B006B4E44 /* Tarjeta+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tarjeta+CoreDataProperties.swift"; path = "../Tarjeta+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4935EC391CBB2D3B006B4E44 /* Tarjeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tarjeta.swift; path = ../Tarjeta.swift; sourceTree = "<group>"; };
+		4935EC3C1CBC07DC006B4E44 /* ViewDatosTarjeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDatosTarjeta.swift; sourceTree = "<group>"; };
+		493612B11C9B75A600E530BF /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		494F9A8D1CADD2B100567094 /* DialogOpcionesTarjeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogOpcionesTarjeta.swift; sourceTree = "<group>"; };
+		49C9C5A61CDD15FA00631A5A /* CaptureCard2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptureCard2.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490B6A0D1C9A10350052DA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F168F1CAC44CB00778FDE /* libstdc++.tbd in Frameworks */,
+				492F16881CAB307800778FDE /* CoreImage.framework in Frameworks */,
+				492F16861CAB306B00778FDE /* libstdc++.6.0.9.tbd in Frameworks */,
+				492F16841CAB2FF700778FDE /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490B6A071C9A10350052DA78 = {
+			isa = PBXGroup;
+			children = (
+				490B6A121C9A10350052DA78 /* CaptureCard */,
+				490B6A111C9A10350052DA78 /* Products */,
+				492F16891CAB447D00778FDE /* CaptureCard-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		490B6A111C9A10350052DA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490B6A101C9A10350052DA78 /* CaptureCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490B6A121C9A10350052DA78 /* CaptureCard */ = {
+			isa = PBXGroup;
+			children = (
+				490B6A131C9A10350052DA78 /* AppDelegate.swift */,
+				4930B53F1CADE931001AA217 /* Dialogs */,
+				492F167B1CAAE31B00778FDE /* CoreData */,
+				492F167E1CAAE38100778FDE /* Adaptaciones */,
+				492F167C1CAAE34B00778FDE /* Views */,
+				492F167D1CAAE35900778FDE /* Administradores */,
+				492F168D1CAB497700778FDE /* frameworks */,
+				492F16901CAC475C00778FDE /* tessdata */,
+				490B6A1D1C9A10350052DA78 /* Assets.xcassets */,
+				490B6A171C9A10350052DA78 /* Main.storyboard */,
+				490B6A1F1C9A10350052DA78 /* LaunchScreen.storyboard */,
+				490B6A221C9A10350052DA78 /* Info.plist */,
+				490B6A1A1C9A10350052DA78 /* CaptureCard.xcdatamodeld */,
+			);
+			path = CaptureCard;
+			sourceTree = "<group>";
+		};
+		492F167B1CAAE31B00778FDE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4935EC381CBB2D3B006B4E44 /* Tarjeta+CoreDataProperties.swift */,
+				4935EC391CBB2D3B006B4E44 /* Tarjeta.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		492F167C1CAAE34B00778FDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				490B6A151C9A10350052DA78 /* ViewMain.swift */,
+				490B6A281C9B2BDD0052DA78 /* ViewVistaPrevia.swift */,
+				4935EC3C1CBC07DC006B4E44 /* ViewDatosTarjeta.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		492F167D1CAAE35900778FDE /* Administradores */ = {
+			isa = PBXGroup;
+			children = (
+				492F167F1CAAE79600778FDE /* AdminCapturas.swift */,
+				492F166D1CA9EF9800778FDE /* AdminCoreData.swift */,
+				492F166F1CA9FD0F00778FDE /* AdminTarjetas.swift */,
+				492F16951CAC518F00778FDE /* AdminTexto.swift */,
+			);
+			name = Administradores;
+			sourceTree = "<group>";
+		};
+		492F167E1CAAE38100778FDE /* Adaptaciones */ = {
+			isa = PBXGroup;
+			children = (
+				493612B11C9B75A600E530BF /* CustomCellTableViewCell.swift */,
+				492F16751CAA2E5E00778FDE /* Toast.swift */,
+			);
+			name = Adaptaciones;
+			sourceTree = "<group>";
+		};
+		492F168D1CAB497700778FDE /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492F16871CAB307800778FDE /* CoreImage.framework */,
+				492F16851CAB306B00778FDE /* libstdc++.6.0.9.tbd */,
+				492F168E1CAC44CB00778FDE /* libstdc++.tbd */,
+				492F16831CAB2FF700778FDE /* TesseractOCR.framework */,
+			);
+			name = frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4930B53F1CADE931001AA217 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				492F16971CAC941900778FDE /* DialogCargandoDatos.swift */,
+				494F9A8D1CADD2B100567094 /* DialogOpcionesTarjeta.swift */,
+				4930B53D1CADDE86001AA217 /* DialogBorrarTarjeta.swift */,
+				4930B5401CADF86B001AA217 /* DialogListaDatos.swift */,
+			);
+			name = Dialogs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490B6A0F1C9A10350052DA78 /* CaptureCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490B6A251C9A10350052DA78 /* Build configuration list for PBXNativeTarget "CaptureCard" */;
+			buildPhases = (
+				490B6A0C1C9A10350052DA78 /* Sources */,
+				490B6A0D1C9A10350052DA78 /* Frameworks */,
+				490B6A0E1C9A10350052DA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptureCard;
+			productName = CaptureCard;
+			productReference = 490B6A101C9A10350052DA78 /* CaptureCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490B6A081C9A10350052DA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Miguel Palacios";
+				TargetAttributes = {
+					490B6A0F1C9A10350052DA78 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P64K56753R;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 490B6A0B1C9A10350052DA78 /* Build configuration list for PBXProject "CaptureCard" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490B6A071C9A10350052DA78;
+			productRefGroup = 490B6A111C9A10350052DA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490B6A0F1C9A10350052DA78 /* CaptureCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490B6A0E1C9A10350052DA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490B6A211C9A10350052DA78 /* LaunchScreen.storyboard in Resources */,
+				492F16911CAC475C00778FDE /* tessdata in Resources */,
+				490B6A1E1C9A10350052DA78 /* Assets.xcassets in Resources */,
+				490B6A191C9A10350052DA78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490B6A0C1C9A10350052DA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492F16981CAC941900778FDE /* DialogCargandoDatos.swift in Sources */,
+				4930B53E1CADDE86001AA217 /* DialogBorrarTarjeta.swift in Sources */,
+				4935EC3A1CBB2D3B006B4E44 /* Tarjeta+CoreDataProperties.swift in Sources */,
+				492F16961CAC518F00778FDE /* AdminTexto.swift in Sources */,
+				492F16701CA9FD0F00778FDE /* AdminTarjetas.swift in Sources */,
+				490B6A161C9A10350052DA78 /* ViewMain.swift in Sources */,
+				4930B5411CADF86B001AA217 /* DialogListaDatos.swift in Sources */,
+				492F166E1CA9EF9800778FDE /* AdminCoreData.swift in Sources */,
+				490B6A291C9B2BDD0052DA78 /* ViewVistaPrevia.swift in Sources */,
+				490B6A1C1C9A10350052DA78 /* CaptureCard.xcdatamodeld in Sources */,
+				494F9A8E1CADD2B100567094 /* DialogOpcionesTarjeta.swift in Sources */,
+				492F16761CAA2E5E00778FDE /* Toast.swift in Sources */,
+				493612B21C9B75A600E530BF /* CustomCellTableViewCell.swift in Sources */,
+				492F16801CAAE79600778FDE /* AdminCapturas.swift in Sources */,
+				4935EC3B1CBB2D3B006B4E44 /* Tarjeta.swift in Sources */,
+				4935EC3D1CBC07DC006B4E44 /* ViewDatosTarjeta.swift in Sources */,
+				490B6A141C9A10350052DA78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		490B6A171C9A10350052DA78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490B6A181C9A10350052DA78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		490B6A1F1C9A10350052DA78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490B6A201C9A10350052DA78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490B6A231C9A10350052DA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P64K56753R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "556aeb39-52f0-4cc9-a03d-d9c2a5430706";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		490B6A241C9A10350052DA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P64K56753R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "556aeb39-52f0-4cc9-a03d-d9c2a5430706";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		490B6A261C9A10350052DA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CaptureCard",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CaptureCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Palacios.CaptureCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CaptureCard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		490B6A271C9A10350052DA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CaptureCard",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CaptureCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Palacios.CaptureCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CaptureCard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490B6A0B1C9A10350052DA78 /* Build configuration list for PBXProject "CaptureCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490B6A231C9A10350052DA78 /* Debug */,
+				490B6A241C9A10350052DA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490B6A251C9A10350052DA78 /* Build configuration list for PBXNativeTarget "CaptureCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490B6A261C9A10350052DA78 /* Debug */,
+				490B6A271C9A10350052DA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		490B6A1A1C9A10350052DA78 /* CaptureCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49C9C5A61CDD15FA00631A5A /* CaptureCard2.xcdatamodel */,
+				490B6A1B1C9A10350052DA78 /* CaptureCard.xcdatamodel */,
+			);
+			currentVersion = 49C9C5A61CDD15FA00631A5A /* CaptureCard2.xcdatamodel */;
+			path = CaptureCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 490B6A081C9A10350052DA78 /* Project object */;
+}
